@@ -1,0 +1,12 @@
+.app__product h1 {
+  font-size: 26px;
+}
+
+.app__product img {
+  width: 200px;
+}
+
+.app__product {
+  width: 200px;
+  height: 300px;
+}

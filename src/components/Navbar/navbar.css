@@ -4,11 +4,11 @@
   justify-content: space-around;
 }
 
-ul {
+.app__navbar ul {
   display: flex;
   gap: 50px;
 }
-li {
+.app__navbar li {
   list-style: none;
 }
 .link {
@@ -20,7 +20,7 @@ li {
   border-bottom: 1px solid white;
 }
 
-h2 {
+.app__navbar h2 {
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -39,12 +39,12 @@ h2 {
   .app__navbar-menu {
     display: none;
   }
-  ul {
+  .app__navbar ul {
     flex-direction: column;
     justify-content: start;
     padding: 0;
   }
-  h2 {
+  .app__navbar h2 {
     font-size: 25px;
     margin: 0;
   }
