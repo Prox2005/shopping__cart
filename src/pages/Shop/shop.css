@@ -1,5 +1,4 @@
 .app__shop {
-  background-color: black;
   display: flex;
   flex-direction: column;
   gap: 100px;

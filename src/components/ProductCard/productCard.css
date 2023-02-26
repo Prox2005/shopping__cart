@@ -3,10 +3,10 @@
 }
 
 .app__product img {
-  width: 200px;
+  width: 300px;
 }
 
 .app__product {
-  width: 200px;
-  height: 300px;
+  cursor: pointer;
+  width: 300px;
 }

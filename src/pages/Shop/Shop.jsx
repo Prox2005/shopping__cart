@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import catalog from "../../data/products";
 import { ProductCard } from "../../components/";
 import "./shop.css";
 
 const Shop = () => {
-  useEffect(() => {
-    const root = document.querySelector("#root");
-    root.style.background = "black";
-  }, []);
-
   return (
     <div className="app__shop">
       <section className="app__shop-header">
