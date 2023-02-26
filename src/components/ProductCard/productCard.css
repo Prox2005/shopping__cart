@@ -1,12 +1,8 @@
-.app__product h1 {
-  font-size: 26px;
-}
-
-.app__product img {
+.app__product-card img {
   width: 300px;
 }
 
-.app__product {
+.app__product-card {
   cursor: pointer;
   width: 300px;
 }

@@ -13,7 +13,6 @@ body,
 }
 
 .App {
-  position: relative;
   display: flex;
   flex-direction: column;
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 100px;
   margin-top: 50px;
+  color: #222831;
 }
 
 .app__shop h1 {
@@ -19,4 +20,15 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+}
+
+.app__shop a {
+  color: #222831;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 470px) {
+  .app__shop {
+    margin-top: 150px;
+  }
 }

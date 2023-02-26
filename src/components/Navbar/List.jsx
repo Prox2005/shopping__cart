@@ -18,7 +18,7 @@ const List = () => {
         </li>
         <li>
           <Link to="/cart">
-            <AiOutlineShoppingCart cursor="pointer" color="black" size="22" />
+            <AiOutlineShoppingCart cursor="pointer" color="#222831" size="22" />
           </Link>
         </li>
       </ul>
