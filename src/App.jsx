@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/shopping__cart">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
