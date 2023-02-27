@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-around;
   color: #222831;
+  color: #45171d;
+  color: #155263;
 }
 
 .app__navbar ul {
@@ -19,7 +21,7 @@
 
 .link:hover {
   padding-bottom: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #155263;
 }
 
 .app__navbar h2 {
