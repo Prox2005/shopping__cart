@@ -8,6 +8,14 @@ function App() {
   const [bagProducts, setbagProducts] = useState([]);
   useEffect(() => {}, [bagProducts]);
 
+  function addProduct(product) {
+    if (bagProducts.find((x) => x.id === product.id)) {
+      alert("You can't add the same item twice");
+      return;
+    }
+    setbagProducts([...bagProducts, product]);
+  }
+
   function removeProduct(product) {
     setbagProducts(bagProducts.filter((x) => x !== product));
   }
@@ -21,7 +29,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route
             path="/product/:id"
-            element={<Product setbagProducts={setbagProducts} bagProducts={bagProducts} />}
+            element={<Product addProduct={addProduct} bagProducts={bagProducts} />}
           />
           <Route
             path="/cart"
