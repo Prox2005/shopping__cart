@@ -14,11 +14,6 @@
   font-size: 50px;
 }
 
-.app__home h1 span {
-  color: #ff5722;
-  color: rgb(224, 31, 31);
-}
-
 .app__home button {
   height: 50px;
   width: 200px;

@@ -1,0 +1,83 @@
+.app__cart {
+  margin-top: 100px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.app__cart-title {
+  color: #222831;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 46px;
+  margin: 0;
+}
+
+.app__no-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+
+.app__no-products h2 {
+  font-size: 30px;
+}
+.app__no-products button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #222831;
+}
+
+.app__no-products a:hover {
+  opacity: 0.8;
+}
+
+.app__cart-products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.app__cart-products li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.app__cart-products h1 {
+  max-width: 300px;
+  font-size: 20px;
+}
+
+.app__cart-products li img {
+  width: 150px;
+}
+
+.app__cart-products li button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app__cart-products ul {
+  padding: 0;
+}
+@media screen and (max-width: 750px) {
+  .app__cart-products li img {
+    width: 100px;
+  }
+}

@@ -5,6 +5,7 @@ import { MdExpandMore, MdExpandLess } from "react-icons/md";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className="app__navbar">
       <h2>Adidas Shop</h2>

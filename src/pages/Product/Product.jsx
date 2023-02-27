@@ -4,7 +4,7 @@ import "./product.css";
 import catalog from "../../data/products";
 import { AiOutlineRollback } from "react-icons/ai";
 
-const Product = () => {
+const Product = ({ setbagProducts, bagProducts }) => {
   const { id } = useParams();
   const product = catalog.filter((x) => x.id === id)[0];
 
@@ -22,9 +22,18 @@ const Product = () => {
       <section className="app__product-cart">
         <h1 className="app__product-name">{product.name}</h1>
         <h3 className="app__product-cart-price">{product.price}</h3>
-        <button type="button" className="app__product-add">
-          Add
-        </button>
+
+        <Link to="/cart">
+          <button
+            type="button"
+            className="app__product-add"
+            onClick={() => {
+              setbagProducts([...bagProducts, product]);
+            }}
+          >
+            Add
+          </button>
+        </Link>
       </section>
     </div>
   );
